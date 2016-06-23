@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/rengil/HowToReact/issues"
   },
-  "homepage": "https://github.com/rengil/HowToReact#readme"
+  "homepage": "https://github.com/rengil/HowToReact#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1"
+  }
 }
