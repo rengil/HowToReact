@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello React!</title>
+    <script src="build/react.js"></script>
+    <script src="build/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.0.28/css/bulma.min.css"/>
+  </head>
+  <body>
+    <div id="example"></div>
+    <script type="text/babel">
+      ReactDOM.render(
+        <div>
+        <a class="button is-primary is-inverted">Inverted</a>
+        <a class="button is-info is-inverted">Inverted</a>
+        <a class="button is-success is-inverted">Inverted</a>
+        <a class="button is-danger is-inverted">Inverted</a>,
+        document.getElementById('example')
+      );
+    </script>
+  </body>
+</html>
